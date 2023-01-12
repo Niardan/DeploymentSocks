@@ -1,0 +1,11 @@
+terraform {
+  required_providers {
+    yandex = {
+      source  = "yandex-cloud/yandex"
+      version = "0.65.0"
+    }
+  } 
+}
+
+provider "yandex" {
+}
